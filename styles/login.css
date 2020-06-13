@@ -1,0 +1,13 @@
+@import url(base.css);
+
+.container{
+    margin-top: 100px;
+    width: 50%;
+}
+.password{
+    margin-top: 10px;
+}
+.buttonbox{
+    margin-top: 20px;
+}
+

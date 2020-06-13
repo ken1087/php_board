@@ -1,0 +1,17 @@
+@import url(base.css);
+@import url(menu.css);
+
+.boardcon{
+	margin-top: 100px;
+}
+
+.writemove{
+	text-align: right;
+}
+
+.searchbox{
+	display: grid;
+	grid-template-columns: 4fr 2fr;
+	gap: 10px;
+	width: 30%;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/styles/write.css">
+    <title>글 작성</title>
+</head>
+
+<body>
+    <div class="container">
+        <h3>글 작성</h3>
+        <form action="write.php" method="POST" enctype="multipart/form-data">
+            <div>
+                <input type="text" class="form-control" name="title" placeholder="제목">
+            </div>
+            <div class="marginbox">
+                <textarea id="context" name="context" rows="10" class="form-control textarea" placeholder="본문"></textarea>
+            </div>
+            <div class="marginbox"><input type="file" name="imageData"/></div>
+            <div class="marginbox"><button type="submit" class="btn btn-primary">글 쓰기</button></div>
+        </form>
+    </div>
+</body>

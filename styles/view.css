@@ -1,0 +1,19 @@
+@import url(base.css);
+@import url(menu.css);
+
+.container{
+    margin-top: 100px;
+}
+
+.cbox{
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+}
+
+.usercon{
+    margin-top: 10px;
+}
+
+.commentcontext{
+    background-color: white;
+}
